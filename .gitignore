@@ -1,0 +1,10 @@
+node_modules/
+.git/
+.vscode/
+.DS_Store
+.vagrant/
+.idea/
+logs/
+snapshoot/
+config/
+**/*/temp/**/*

@@ -1,0 +1,13 @@
+version: "3"
+
+services: 
+  web:
+    image: ashertan/node-web-app
+    links: 
+      - redis
+    ports:
+      - "8080"
+  redis:
+    image: redis
+    ports:
+      - "6379"
